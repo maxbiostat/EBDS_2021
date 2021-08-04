@@ -1,0 +1,53 @@
+A proposal for the standardisation of epidemic modelling reporting in Brazil
+========================================================
+author: Luiz Max Carvalho (lmax.fgv@gmail.com)
+date: 04/08/2021
+autosize: false
+
+[III Encontro Brasileiro de Data Science  (EBDS)](https://evento.fgv.br/encontrodatascience/)
+
+We were **not** prepared
+========================================================
+
+Despite numerous [warnings](https://www.sciencedirect.com/science/article/pii/S0140673612616845?casa_token=cOLPD1CbvGwAAAAA:fIN00u1MSi54Rl60pNoOIDrODrcd_rRzUCEYQeFqEKkKUe2H_e8cj6u6e8Sj508400znRxw2T7c), we were ill-prepared for the COVID-19 emergency 
+(and emergence).
+
+- Surveillance systems were not sufficiently flexible or fast to accommodate a
+new disease;
+- Our models were poor and inflexible (see [this](https://forecasters.org/blog/2020/06/14/covid-19-ioannidis-vs-taleb/));
+- Importantly, we failed unify and leverage the myriad of modelling efforts that
+cropped up during the pandemic.
+
+Desiderata
+========================================================
+
+- Using [proper scoring rules](https://github.com/maxbiostat/proper_scoring_rules/blob/master/proper_scoring_rules.pdf) for fair, consistent and coherent comparison of predictive models ([Raftery & Gneiting , 2007](https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf));
+- Appropriate and (semi-) automatic incorporation of geographical and populational **heterogeneity**;
+
+- Easily deployable framework that can be used for different epidemiological contexts with minimal tweaking, _a la_ [NextStrain](https://nextstrain.org/);
+
+- Focus should be on producing actionable **short-term** metrics for decision makers.
+
+Recommendations
+========================================================
+- Ample and deep discussion of which quantities to target;
+- Strengthen (i.e. fund!) the acquisition, curation and broadcasting of publicly accessible Public Health data (see [this](http://www2.datasus.gov.br/) and [this](http://info.gripe.fiocruz.br/)); 
+- Properly account for heterogeneity;
+- Consider epistemic uncertainty.
+
+What this proposal is **not** about
+========================================================
+
+- Dunking on non-epidemiologists;
+- Longer-term and scenario predictions;
+- A ranking of the best types of models;
+- A silver bullet that will save us from the next plague.
+
+Let's collaborate!
+========================================================
+- Thanks to Fernanda Gomes and Victor Bombarda for help with literature search.
+- Thanks to the [MAVE](https://covid-19.procc.fiocruz.br/) group for edifying discussions;
+- lmax.fgv@gmail.com
+- https://github.com/maxbiostat 
+
+Thanks!
